@@ -1,0 +1,1410 @@
+.hr-tab {
+    border-bottom: 1px solid rgba(175, 175, 175, 0.685);
+}
+
+.hr-tab-list {
+    border-bottom: 1px solid rgba(212, 212, 212, 0.377);
+}
+
+.color-blue {
+    color: #3a6193;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-grey {
+    color: rgb(156, 156, 156);
+}
+
+.color-green-minus-plus {
+    color: rgb(1, 185, 1);
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-size-9 {
+    font-size: 9px;
+}
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-11 {
+    font-size: 10px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-17 {
+    font-size: 17px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-19 {
+    font-size: 19px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.padding-horizontal-5 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.padding-horizontal-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padding-horizontal-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding-horizontal-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.padding-horizontal-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.padding-vertical-3 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.padding-vertical-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.padding-vertical-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-vertical-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.width-80 {
+    width: 80px !important;
+}
+
+.width-150 {
+    width: 150px;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.width-400 {
+    width: 400px;
+}
+
+.navbar-entrances-and-exits {
+    box-shadow: 0px 6px 5px 0px rgba(61, 61, 61, 0.1);
+    height: 80px !important;
+    width: 100%;
+    position: fixed;
+    z-index: 200 !important;
+    background-color: white;
+}
+
+.menu-vertical-entrances-and-exits {
+    background-color: white;
+    top: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 200px !important;
+    box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.20);
+    height: calc(100% - 80px) !important;
+    position: fixed;
+    z-index: 100;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    display: none;
+}
+
+.menu-vertical-entrances-and-exits::-webkit-scrollbar {
+    display: none;
+}
+
+.main-container-entrances-and-exits {
+    top: 60px;
+    width: 100% !important;
+    height: calc(100%-90px);
+    z-index: 1;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.width-menu-vertical-entrances-and-exits {
+    width: calc(100%-250px) !important;
+}
+
+.logo-size-entrances-and-exits {
+    height: 70px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button-data-user-entrances-and-exits {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-data-user-entrances-and-exits:focus {
+    outline: none;
+}
+
+.logo-user-size-entrances-and-exits {
+    height: 38px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.drop-data-user-entrances-and-exits {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px !important;
+}
+
+.drop-store-entrances-and-exits {
+    background-color: white;
+    width: 110px !important;
+    height: calc(100% - 70px) !important;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: -1px 6px 9px 0px rgba(0, 0, 0, 0.35);
+}
+
+.logo-store-size-entrances-and-exits {
+    height: 40px;
+    width: 130px;
+}
+
+.show {
+    display: block;
+}
+
+.items-menu-vertical-entrances-and-exits {
+    margin: 5px !important;
+    height: 45px;
+    width: 200px;
+    padding-left: 15px;
+}
+
+.items-menu-vertical-entrances-and-exits:hover {
+    background-color: #B1FFA6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.img-menu-vertical-size-entrances-and-exits {
+    height: 40px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.form-search-entrances-and-exits {
+    color: #3a6193 !important;
+    border-bottom: 1px solid #3a6193a1 !important;
+    font-size: 18px;
+    width: 200px !important;
+}
+
+.form-search-entrances-and-exits::placeholder {
+    color: #3a6193 !important;
+    font-size: 13px;
+}
+
+.button-search-entrances-and-exits {
+    border-radius: 5px;
+    color: #929292;
+    border: 1px solid rgba(190, 190, 190, 0.76);
+    font-size: 11px;
+    background-color: white;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.button-search-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.navbar-search-products-entrances-and-exits {
+    height: 60px;
+    width: 850px;
+}
+
+.drop-list-products-entrances-and-exits {
+    height: 210px;
+    width: 850px;
+    box-shadow: inset -2px 6px 8px -5px rgba(71, 71, 71, 0.25);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border: 8px none #ffffff;
+    border-radius: 50px;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-thumb:hover {
+    background: #afafaf;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-thumb:active {
+    background: #afafaf;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-track {
+    background: #e6e6e6;
+    border: 8px none #ffffff;
+    border-radius: 50px;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-track:hover {
+    background: #e6e6e6;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-track:active {
+    background: #e6e6e6;
+}
+
+.drop-list-products-entrances-and-exits::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.text-list-drop-entrances-and-exits {
+    color: rgb(156, 156, 156);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.text-list-drop-entrances-and-exits:hover {
+    background-color: rgb(187, 187, 187);
+    color: white;
+}
+
+.select-seller-entrances-and-exits {
+    position: relative;
+    display: inline-block;
+    width: 167px;
+    border: none !important;
+    margin-bottom: 10px;
+}
+
+.select-seller-entrances-and-exits select {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    font-size: 12px;
+    border-bottom: 1px solid #b8b8b8 !important;
+    border-radius: 0px;
+    background: #ffffff;
+    color: #a7a7a7df;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-seller-entrances-and-exits select::-ms-expand {
+    display: none;
+}
+
+.select-seller-entrances-and-exits select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-seller-entrances-and-exits {
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #a8a8a8 transparent transparent transparent;
+}
+
+.select-seller-entrances-and-exits select:hover~.select_arrow-seller-entrances-and-exits,
+.select-seller-entrances-and-exits select:focus~.select_arrow-seller-entrances-and-exits {
+    border-top-color: #9b9b9b;
+}
+
+.select-seller-entrances-and-exits select:disabled~.select_arrow-seller-entrances-and-exits {
+    border-top-color: #9b9b9b;
+}
+
+.buttons-total-entrances-and-exits {
+    border: 1px solid rgba(179, 179, 179, 0.781);
+    height: 28px;
+    width: 197px;
+    background-color: white;
+    color: #0554bb;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.buttons-total-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.navbar-product-select-entrances-and-exits {
+    box-shadow: inset 0px 3px 5px 0px rgba(78, 78, 78, 0.25);
+    padding-top: 10px;
+}
+
+.drop-option-cash-entrances-and-exits {
+    height: 240px;
+    width: 400px;
+    border: 1px solid rgba(153, 153, 153, 0.541);
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 310px;
+    z-index: 20;
+    position: relative;
+}
+
+.button-option-cash-entrances-and-exits {
+    background-color: white;
+    border: none;
+    padding: 0px !important;
+    margin: 0px !important;
+    cursor: pointer;
+    height: 50px;
+}
+
+.button-option-cash-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.button-border-right-none-entrances-and-exits {
+    width: 160px;
+    background-color: white;
+    height: 50px;
+    border-right: none;
+}
+
+.button-movements-cash-entrances-and-exits {
+    height: 33px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    width: 180px;
+    margin-left: 0px;
+    padding-left: 25px;
+}
+
+.button-movements-cash-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.button-close-cash-entrances-and-exits {
+    height: 33px;
+    width: 220px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.button-close-cash-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.buttons-final-drop-movement-cash-entrances-and-exits {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(153, 153, 153);
+    background-color: white;
+    font-weight: 600;
+    color: blue;
+    border-top: 1px solid rgba(200, 200, 200, 0.466);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.border-bottom-entrances-and-exits {
+    border-bottom: 1px solid rgba(167, 167, 167, 0.787);
+    box-shadow: inset 3px 0px 6px -2px rgba(0, 0, 0, 0.35);
+}
+
+.border-bottom-two-entrances-and-exits {
+    border-bottom: 1px solid rgba(167, 167, 167, 0.787);
+    box-shadow: inset -3px 0px 6px -2px rgba(0, 0, 0, 0.35);
+}
+
+.buttons-final-drop-movement-cash-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.modal-other-movements-entrances-and-exits {
+    top: 200px;
+    background-color: white;
+    width: 580px !important;
+    height: 150px !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+
+.width-450 {
+    width: 450px;
+}
+
+.button-return-entrances-and-exits {
+    border: 1px solid rgba(179, 179, 179, 0.781);
+    height: 30px;
+    width: 55px;
+    background-color: white;
+    color: #0554bb;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.button-return-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.inputs-close-cash-entrances-and-exits {
+    border: none;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.739);
+    width: 150px;
+}
+
+.inputs-close-cash-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.buttons-close-cash-entrances-and-exits {
+    border: 1px solid rgba(179, 179, 179, 0.781);
+    height: 30px;
+    background-color: white;
+    color: #0554bb;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buttons-close-cash-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.most-selled-products-entrances-and-exits {
+    top: 50px;
+    background-color: white;
+    width: 550px !important;
+    height: 400px !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+
+.width-275 {
+    width: 275px;
+}
+
+.img-size-bag-entrances-and-exits {
+    width: 42px;
+    height: 42px;
+}
+
+.text-img-bag-navbar-entrances-and-exits {
+    color: #3a6193;
+    left: 25px;
+    top: -32px;
+}
+
+.menu-vertical-categories-entrances-and-exits {
+    top: 135px;
+    padding-top: 5px;
+    width: 100px !important;
+    height: calc(100% - 135px) !important;
+    position: fixed;
+    z-index: 30 !important;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.20);
+    background-color: white;
+}
+
+.menu-vertical-categories-entrances-and-exits::-webkit-scrollbar {
+    display: none;
+}
+
+.button-categories-menu-vertical-entrances-and-exits {
+    background-color: white;
+    border: none;
+    height: 90px;
+    width: 100px;
+    background-repeat: no-repeat !important;
+    background-size: 50%;
+    background-position: 100% auto;
+}
+
+.button-categories-menu-vertical-entrances-and-exits:hover {
+    background-color: #B1FFA6;
+}
+
+.button-categories-menu-vertical-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.img-categories-menu-vertical-entrances-and-exits {
+    min-width: 60px;
+    max-width: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-position: 50%;
+    background-size: 100% auto;
+    cursor: pointer;
+    margin-bottom: 10px !important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.categories-menu-vertical-entrances-and-exits {
+    position: fixed !important;
+    margin: 0px !important;
+    transition-duration: 0s, 0s !important;
+}
+
+.box-categories-menu-vertical-entrances-and-exits {
+    height: 92px !important;
+    width: 560px !important;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(182, 182, 182);
+    border-left: none;
+    padding: 0px !important;
+    transition-duration: 0s, 0s !important;
+    margin: 0px !important;
+}
+
+.subcategories-menu-vertical-entrances-and-exits {
+    margin: 0px !important;
+    transition-duration: 0s, 0s !important;
+}
+
+.box-subcategories-menu-vertical-entrances-and-exits {
+    height: 195px !important;
+    width: 90px !important;
+    transition-duration: 0s, 0s !important;
+    background-color: white;
+    border: 1px solid rgb(182, 182, 182);
+    border-top: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img-items-menu-scroll-entrances-and-exits {
+    min-width: 60px;
+    max-width: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-position: 50%;
+    background-size: 100% auto;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button-items-menu-categories-entrances-and-exits {
+    background-color: white;
+    border: none;
+    height: 90px;
+    width: 90px !important;
+    background-repeat: no-repeat !important;
+    background-size: 50%;
+    background-position: 100% auto;
+}
+
+.button-items-menu-categories-entrances-and-exits {
+    background-color: white;
+    border: none;
+    height: 90px;
+    width: 90px !important;
+    background-repeat: no-repeat !important;
+    background-size: 50%;
+    background-position: 100% auto;
+}
+
+.button-items-menu-categories-entrances-and-exits:hover {
+    background-color: #B1FFA6;
+}
+
+.main-container-products-selection-entrances-and-exits {
+    width: 840px;
+    padding-left: 170px;
+    padding-top: 70px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.card-products-add-entrances-and-exits {
+    width: 200px !important;
+    min-width: 210px !important;
+    height: 130px !important;
+    border: 1px solid rgba(189, 189, 189, 0.835);
+    border-radius: 10px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 33px;
+    cursor: pointer;
+}
+
+.card-products-add-entrances-and-exits:hover {
+    border: 1.5px solid rgb(2, 173, 2);
+}
+
+.img-items-products-add-70-entrances-and-exits {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-position: 50%;
+    background-size: 100% auto;
+}
+
+.button-discount-card-entrances-and-exits {
+    border-radius: 10px;
+    background-color: rgb(0, 0, 102);
+    color: white;
+    width: 50px !important;
+    text-align: center;
+    bottom: 260px;
+    right: 180px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 12px;
+}
+
+.button-card-add-product-entrances-and-exits {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    width: 60px;
+    height: 20px;
+    margin-top: 55px;
+}
+
+.like-size-card-entrances-and-exits {
+    height: 40px;
+    width: 40px;
+    left: 180px;
+    top: 100px;
+    cursor: pointer;
+}
+
+.main-container-products-selection-second-entrances-and-exits {
+    margin-top: 50px;
+    position: fixed;
+}
+
+.subnavbar-search-products-entrances-and-exits {
+    position: fixed;
+    z-index: 200;
+    background-color: white;
+    width: 980px;
+    height: 55px;
+}
+
+.related-products-box-entrances-and-exits {
+    width: 320px;
+    height: 255px;
+    box-shadow: inset 0px -2px 7px 1px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-top: 10px;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border: 8px none #ffffff;
+    border-radius: 50px;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-thumb:hover {
+    background: #afafaf;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-thumb:active {
+    background: #afafaf;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-track {
+    background: #e6e6e6;
+    border: 8px none #ffffff;
+    border-radius: 50px;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-track:hover {
+    background: #e6e6e6;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-track:active {
+    background: #e6e6e6;
+}
+
+.related-products-box-entrances-and-exits::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.modal-manual-billing-entrances-and-exits {
+    width: 550px !important;
+    height: 540px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.inputs-manual-billing-entrances-and-exits {
+    border: none;
+    border-bottom: 1px solid rgba(156, 156, 156, 0.787);
+    width: 70px;
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.inputs-manual-billing-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.box-shadow-down-entrances-and-exits {
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.20);
+}
+
+.image-bill-icons-entrances-and-exits {
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.image-coin-icons-entrances-and-exits {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.modal-alert-partial-payment-entrances-and-exits {
+    height: 120px !important;
+    width: 250px !important;
+    border-radius: 15px;
+    padding-top: 20px;
+    margin-top: 200px !important;
+}
+
+.buttons-modal-alert-partial-payment-entrances-and-exits {
+    height: 25px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: rgba(173, 173, 173, 0.794);
+    cursor: pointer;
+}
+
+.buttons-modal-alert-partial-payment-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.select-cash-entrances-and-exits {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    border-radius: 10px;
+}
+
+.select-cash-entrances-and-exits select {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 10px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid #a7a7a7c5;
+    font-size: 9px;
+    padding-left: 40px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #0c0fc3;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-cash-entrances-and-exits select::-ms-expand {
+    display: none;
+}
+
+.select-cash-entrances-and-exits select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-cash-entrances-and-exits {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 6px 3px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.select-cash-entrances-and-exits select:hover~.select_arrow-cash-entrances-and-exits,
+.select-cash-entrances-and-exits select:focus~.select_arrow-cash-entrances-and-exits {
+    border-top-color: #000000;
+}
+
+.select-cash-entrances-and-exits select:disabled~.select_arrow-cash-entrances-and-exits {
+    border-top-color: #cccccc;
+}
+
+.select-clients-entrances-and-exits {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    border-radius: 10px;
+}
+
+.select-clients-entrances-and-exits select {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 10px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid rgba(182, 182, 182, 0.787);
+    font-size: 9px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #0c0fc3;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 20px;
+}
+
+.select-clients-entrances-and-exits select::-ms-expand {
+    display: none;
+}
+
+.select-clients-entrances-and-exits select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-clients-entrances-and-exits {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 6px 3px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.select-clients-entrances-and-exits select:hover~.select_arrow-clients-entrances-and-exits,
+.select-clients-entrances-and-exits select:focus~.select_arrow-clients-entrances-and-exits {
+    border-top-color: #000000;
+}
+
+.select-clients-entrances-and-exits select:disabled~.select_arrow-clients-entrances-and-exits {
+    border-top-color: #cccccc;
+}
+
+.inputs-register-debit-card-entrances-and-exits {
+    border: 1px solid rgba(175, 175, 175, 0.74);
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.inputs-register-debit-card-entrances-and-exits::placeholder {
+    color: rgb(180, 180, 180);
+    font-size: 11px;
+}
+
+.image-debit-card-entrances-and-exits {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.buttons-options-payments-entrances-and-exits {
+    border-radius: 5px;
+    border: 1px solid rgba(172, 172, 172, 0.65);
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    color: blue;
+    background-color: white;
+    font-size: 12px;
+}
+
+.buttons-options-payments-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.input-date-entrances-and-exits {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 167px;
+    color: rgb(155, 155, 155);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.input-date-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.input-observations-entrances-and-exits {
+    width: 395px;
+    border: none;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    margin-left: 64px;
+}
+
+.input-observations-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.input-observations-entrances-and-exits::placeholder {
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+}
+
+.input-provider-code-entrances-and-exits {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 90px;
+    margin-left: 15px;
+}
+
+.input-provider-code-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.select-supplier-entrances-and-exits {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    border: none !important;
+}
+
+.select-supplier-entrances-and-exits select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    font-size: 12px;
+    border-radius: 0px;
+    background: #ffffff;
+    color: #585757df;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-supplier-entrances-and-exits select::-ms-expand {
+    display: none;
+}
+
+.select-supplier-entrances-and-exits select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-supplier-entrances-and-exits {
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.select-supplier-entrances-and-exits select:hover~.select_arrow-supplier-entrances-and-exits,
+.select-supplier-entrances-and-exits select:focus~.select_arrow-supplier-entrances-and-exits {
+    border-top-color: #000000;
+}
+
+.select-supplier-entrances-and-exits select:disabled~.select_arrow-supplier-entrances-and-exits {
+    border-top-color: #cccccc;
+}
+
+.button-search-supplier-entrances-and-exits {
+    border: 1px solid rgba(177, 177, 177, 0.938);
+    border-radius: 10px;
+    font-size: 11px;
+    color: rgb(0, 0, 184);
+    background-color: white;
+    height: 28px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.button-search-supplier-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.inputs-modal-create-products-entrances-and-exits {
+    border: none;
+    border-bottom: 1px solid #757474fd;
+    width: 140px;
+}
+
+.inputs-modal-create-products-entrances-and-exits::placeholder {
+    color: #757474fd;
+    font-size: 11px;
+}
+
+.inputs-modal-create-products-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.select-create-product-entrances-and-exits {
+    position: relative;
+    display: inline-block;
+    width: 145px;
+    border: none !important;
+    margin-bottom: 21x;
+}
+
+.select-create-product-entrances-and-exits select {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 2px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    font-size: 11px;
+    border-bottom: 1px solid #757474fd !important;
+    border-radius: 0px;
+    background: #ffffff;
+    color: #757474fd;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-create-product-entrances-and-exits select::-ms-expand {
+    display: none;
+}
+
+.select-create-product-entrances-and-exits select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-create-product-entrances-and-exits {
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 6px 3px 0px 5px;
+    border-color: #757474fd transparent transparent transparent;
+}
+
+.select-create-product-entrances-and-exits select:hover~.select_arrow-create-product-entrances-and-exits,
+.select-create-product-entrances-and-exits select:focus~.select_arrow-create-product-entrances-and-exits {
+    border-top-color: #000000;
+}
+
+.select-create-product-entrances-and-exits select:disabled~.select_arrow-create-product-entrances-and-exits {
+    border-top-color: #cccccc;
+}
+
+.button-search-provider-modal-create-product-entrances-and-exits {
+    border: 1px solid rgba(155, 154, 154, 0.753);
+    font-size: 11px;
+    background-color: white;
+    height: 23px;
+    border-radius: 5px;
+    color: rgb(167, 167, 167);
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.button-search-provider-modal-create-product-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.modal-create-product-entrances-and-exits {
+    width: 780px !important;
+    padding-left: 40px !important;
+    padding-top: 20px !important;
+    height: 520px;
+    border-radius: 30px;
+}
+
+.image-box-image-create-product-entrances-and-exits {
+    width: 130px;
+    margin-top: 25px;
+}
+
+.button-upload-image-entrances-and-exits {
+    width: 100px;
+    height: 70px;
+    background-color: #05356B;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.icon-upload-image-entrances-and-exits {
+    width: 28px;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.buttons-create-products-entrances-and-exits {
+    background-color: white;
+    border: 1px solid rgba(192, 192, 192, 0.808);
+    color: #05356B;
+    height: 27px;
+    font-size: 11px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons-create-products-entrances-and-exits {
+    outline: 0;
+}
+
+.modal-list-provider-entrances-and-exits {
+    width: 670px !important;
+    height: 520px;
+    border-radius: 30px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+
+.modal-list-provider-entrances-and-exits::-webkit-scrollbar {
+    display: none;
+}
+
+.padding-vertical-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button-edit-provider-entrances-and-exits {
+    background-color: white;
+    border: 1px solid rgba(184, 184, 184, 0.753);
+    font-size: 11px;
+    color: #094a95;
+    margin: 0px;
+    height: 28px;
+    width: 60px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.input-card-search-categories-entrances-and-exits {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 85px;
+}
+
+.input-card-search-categories-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.input-card-search-categories-entrances-and-exits::placeholder {
+    font-size: 11px;
+}
+
+.select-search-categories-entrances-and-exits {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    border: none !important;
+    margin-bottom: 10px;
+}
+
+.select-search-categories-entrances-and-exits select {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    font-size: 10px;
+    border-bottom: 1px solid #adadad !important;
+    border-radius: 0px;
+    background: #ffffff;
+    color: #9b9b9bdf;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-search-categories-entrances-and-exits select::-ms-expand {
+    display: none;
+}
+
+.select-search-categories-entrances-and-exits select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-search-categories-entrances-and-exits {
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 6px 3px 0px 5px;
+    border-color: #a0a0a0 transparent transparent transparent;
+}
+
+.select-search-categories-entrances-and-exits select:hover~.select_arrow-search-categories-entrances-and-exits,
+.select-search-categories-entrances-and-exits select:focus~.select_arrow-search-categories-entrances-and-exits {
+    border-top-color: #000000;
+}
+
+.select-search-categories-entrances-and-exits select:disabled~.select_arrow-search-categories-entrances-and-exits {
+    border-top-color: #cccccc;
+}
+
+.input-observations-search-categories-entrances-and-exits {
+    width: 282px;
+    border: none;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.input-observations-search-categories-entrances-and-exits::placeholder {
+    font-size: 10px;
+    color: rgb(160, 160, 160);
+}
+
+.buttons-total-search-categories-entrances-and-exits {
+    border: 1px solid rgba(179, 179, 179, 0.781);
+    height: 28px;
+    width: 130px;
+    background-color: white;
+    color: #0554bb;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.buttons-total-search-categories-entrances-and-exits:focus {
+    outline: 0;
+}
+
+.image-search-entrances-and-exits {
+    width: 100px;
+}
